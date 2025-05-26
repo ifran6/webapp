@@ -1,5 +1,4 @@
-// import axios from '/axios';
-import axios from 'axios';
+import axios from "/axios";
 
 document.addEventListener('DOMContentLoaded', function() {
     function loginUser() {
@@ -94,4 +93,11 @@ document.addEventListener('DOMContentLoaded', function() {
     loginUser();
     signUpUser();
     contactMessage();
+
+    // using to switch b/w two forms
+//  function showForm(formId){
+//     document.querySelectorAll(".form-box").forEach(form=>form.classList.remove("active"));
+//     document.getElementById(formId).classList.add("active");
+
+//  }
 });

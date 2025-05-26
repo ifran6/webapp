@@ -11,7 +11,9 @@
                         <!-- <h3 class="slider-title d-sm-block"></h3> -->
                         <button class="slider-button">Getting Started</button>
                         <p class="para-text d-xs-block">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat quia et totam doloribus atque! Esse eligendi eos iure ipsum pariatur neque, laudantium placeat laboriosam totam voluptatibus sint, quaerat ab?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat quia et totam
+                            doloribus atque! Esse eligendi eos iure ipsum pariatur neque, laudantium placeat laboriosam
+                            totam voluptatibus sint, quaerat ab?
                         </p>
                     </div>
                 </div>
@@ -20,12 +22,13 @@
     </div>
 
     <!-- Product Slider -->
-     <!-- Product Slider -->
-     <div class="product-card-container bg-light p-4">
-        <h3 class="product-card-title"><?=$pageName?> Us</h3> <hr>
+    <!-- Product Slider -->
+    <div class="product-card-container bg-light p-4">
+        <h3 class="product-card-title"><?=$pageName?> Us</h3>
+        <hr>
         <div class="contact-inner-card js-contact-a">
             <!-- contact content here -->
-             <!-- <div class="contact-content-l">
+            <!-- <div class="contact-content-l">
                 <h3>Branch Offices</h3>
              </div>
 
@@ -39,7 +42,7 @@
         <h3 class="service-card-title">Our Core-Value</h3>
         <div class="contact-inner-card js-contact-b">
             <!-- contact content here -->
-            
+
         </div>
     </div>
 

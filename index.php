@@ -11,7 +11,9 @@
                         <!-- <h3 class="slider-title d-sm-block"></h3> -->
                         <button class="slider-button d-sm-block col-sm-3">Getting Started</button>
                         <p class="para-text d-sm-block col-sm-6">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat quia et totam doloribus atque! Esse eligendi eos iure ipsum pariatur neque, laudantium placeat laboriosam totam voluptatibus sint, quaerat ab?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat quia et totam
+                            doloribus atque! Esse eligendi eos iure ipsum pariatur neque, laudantium placeat laboriosam
+                            totam voluptatibus sint, quaerat ab?
                         </p>
                     </div>
                 </div>
