@@ -185,7 +185,7 @@
 }
 
 .btn-uni{
-    font-weight:bold;
+    font-weight:500;
     font-size: 1rem;
     color:#000;
     text-decoration: none;
@@ -193,6 +193,7 @@
 
 .button-elem{
     width:32vw;
+    font-weight: 500;
 }
 
 .input-elem, textarea{
