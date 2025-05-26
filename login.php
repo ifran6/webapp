@@ -34,7 +34,7 @@
                             <div class="form-group">
                                 <button type="submit" class="btn btn-lg btn-dark button-elem">Sign-In</button>
                             </div>
-                            <p class="text-center">Don't have an account <span><a href="sign-up.php" class="btn btn-uni">Sign-up here</a></span></p>
+                            <p class="text-center mt-3">Don't have an account<span><a href="sign-up.php" class="btn btn-uni">Sign-up here</a></span></p>
                          </form>
                      </div>
             </div>

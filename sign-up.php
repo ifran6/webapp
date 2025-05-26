@@ -48,8 +48,8 @@
                             <div class="form-group">
                                 <button type="submit" class="btn btn-lg btn-dark signup-button button-elem">Sign-up</button>
                             </div>
-                            <p class="text-center">
-                            I have an account <span><a href="login.php" class="btn btn-uni">Sign-In</a></span>
+                            <p class="text-center mt-3">
+                            Already have an account <span><a href="login.php" class="btn btn-uni">Sign-In</a></span>
                             </p>
                          </form>
                      </div>
