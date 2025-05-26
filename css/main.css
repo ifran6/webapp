@@ -196,7 +196,7 @@
     font-weight: 500;
 }
 
-.input-elem, textarea{
+input, textarea{
     border: none;
     border-bottom:1px solid #888;
     width:32vw;
@@ -204,7 +204,7 @@
     margin-bottom:1rem;
 }
 
-.input-elem:focus, textarea:focus{
+input:focus, textarea:focus{
     cursor: pointer;
     background-color: whitesmoke;
     border-top:1px solid #888;
