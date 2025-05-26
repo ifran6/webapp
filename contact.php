@@ -21,28 +21,30 @@
 
     <!-- Product Slider -->
     <div class="product-card-container bg-light p-4">
-        <h3 class="product-card-title"><?=$pageName?> Us</h3>
+      
         <div class="contact-inner-card">
             <!-- contact content here -->
                     <!-- <h3>Contact Form</h3> -->
             <div class="contact-box">
                     <div class="contact-image-box">
                         <img src="assets/images/whatsapp.png" class="contact-image" alt="">
+                        
                     </div>
 
                     <div class="contact-form">
-                    <form action="" class="contact-form">
+                    <form action="" class="contact-form p-4">
+                    <h3 class="product-card-title"><?=$pageName?> Us</h3>
                         <div class="form-group">
                             <label for="conta-name">
-                                Name
-                                <input type="text" class="conta-name form-control-lg" name="conta-name" placeholder="Enter Name">
+                                Name <br>
+                                <input type="text" class="conta-name form-control-lg input-elem" name="conta-name" placeholder="Enter Name">
                             </label>
                         </div>
 
                         <div class="form-group">
                             <label for="conta-name">
-                                Email-ID
-                                <input type="text" class="conta-email form-control-lg" name="conta-email" placeholder="Enter Email-ID">
+                                Email-ID <br>
+                                <input type="text" class="conta-email form-control-lg input-elem" name="conta-email" placeholder="Enter Email-ID">
                             </label>
                         </div>
 
@@ -54,7 +56,7 @@
                         </div>
 
                         <div class="form-group">
-                                <button type="submit" class="btn btn-lg btn-dark my-3 contact-button w-50">Send</button>
+                                <button type="submit" class="btn btn-lg btn-dark my-3 contact-button button-elem w-25">Send</button>
                         </div>
                     </form>
                     </div>

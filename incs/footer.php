@@ -25,8 +25,8 @@
         </div>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script src="js/app.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+<script type="module" src="js/app.js" ></script>
 <script src="data/contact-data.js"></script>
 <script src="data/product.js"></script>
 <script src="js/bootstrap.min.js"></script>

@@ -11,27 +11,28 @@
 <body class="bg-secondary">
     <div class="container">
             <div class="row">
-                 <div class="col-md-4"></div>
-                <div class="col-5">
+                 <div class="col-md-3"></div>
+                <div class="col-6">
                      <div class="uni__card-container"> 
-                        <h3 class="text-center">Sign-In</h3>
-                         <form action="" class="lgn-form">
+                       
+                         <form action="" class="lgn-form"> 
+                            <h3 class="text-center">Sign-In</h3>
                             <div class="form-group">
                                 <label for="username">
                                     <strong>Username</strong>
-                                    <input type="text" placeholder="Enter Username" name="username" class="form-control-lg w-100 lgn-username">
-                                </label>
-                            </div>
-
-                            <div class="form-group text-justify my-3 w-100">
-                                <label for="Password">
-                                    <strong>Password</strong>
-                                    <input type="password" placeholder="Enter Password" name="password" class="form-control-lg w-100 lgn-password">
+                                    <input type="text" placeholder="Enter Username" name="username" class="form-control-lg lgn-username input-elem">
                                 </label>
                             </div>
 
                             <div class="form-group">
-                                <button type="submit" class="btn btn-lg btn-dark my-3 sign_in-button">Sign-In</button>
+                                <label for="Password">
+                                    <strong>Password</strong>
+                                    <input type="password" placeholder="Enter Password" name="password" class="form-control-lg lgn-password input-elem">
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-lg btn-dark button-elem">Sign-In</button>
                             </div>
                             Don't have an account <span><a href="sign-up.php" class="btn btn-uni">Sign-up here</a></span>
                          </form>
