@@ -197,7 +197,7 @@
     font-weight: 500;
 }
 
-input, textarea{
+input, textarea, button{
     border: none;
     border-bottom:1px solid #888;
     width:32vw;
@@ -300,3 +300,5 @@ textarea{
     text-decoration: none;
     font-size:1.4rem;
 }
+
+

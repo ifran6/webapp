@@ -21,6 +21,7 @@
                      <a href="about.php">About</a> 
                       <a href="contact.php">Contact</a> 
                      <a href="login.php">Login</a> 
+                     <a href="log_in.php">Sign In</a> 
                 </nav>
             </header>
             </div>
