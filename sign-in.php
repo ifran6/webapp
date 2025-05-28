@@ -15,7 +15,7 @@
     <div class="container">
         <div class="col-5">
             <div class="form-box active" id="login-form">
-                <form action="" class="frm-login acitve" id="form-login" method="POST">
+                <form class="frm-login acitve" id="form-login" method="POST">
                     <p class="response text-center"></p>
                     <h3 class="login-title">Sign In</h3>
                     <div class="form-group">
@@ -50,7 +50,7 @@
 
 
             <div class="form-box" id="register-form">
-                <form action="" class="frm-register" id="form-register" method="post">
+                <form class="frm-register" id="form-register" method="post">
                     <p class="response text-center"></p>
                     <h3 class="register-title">Register</h3>
                     <div class="form-group">

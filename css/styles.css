@@ -7,6 +7,17 @@ body{
     background: lavender;
 }
 
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 34em; */
+    /* justify-content: space-evenly; */
+    justify-items: center;
+    gap:2rem;
+    
+}
+
 .form-box{
     display:flex;
     flex-direction: column;
@@ -62,4 +73,20 @@ button:hover{
 .register-title, .login-title{
     align-items: center;
     text-align: center;
+}
+
+.dashboad-box{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    justify-items: center;
+    gap:5rem;
+    background-color: #d3e2e2;
+    padding:.5rem;
+}
+
+.nav-links{
+    text-decoration: none;
+    padding: .4rem;
 }

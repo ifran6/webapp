@@ -1,4 +1,4 @@
-<?php $pageName = "Login"?>
+<!-- <?php $pageName = "Login"?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,4 +49,4 @@
     <script src="data/product.js"></script>
     <script src="js/app.js"></script>
     <script src="js/bootstrap.min.js"></script>
-</body>
+</body> -->

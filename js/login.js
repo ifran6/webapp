@@ -36,18 +36,20 @@ if (loginInfo) {
         responseMsg.innerHTML = "<p class='alert alert-info'>Logging in...</p>";
         if (submitBtn) submitBtn.disabled = true;
 
-        fetch("./incs/sign_in.php", {
+        fetch("./incs/sign.php", {
             method: 'POST',
             body: formData
         })
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Server responded with status: ${response.status}`);
+            }else{
+                window.location.href = 'incs/welcome.php';
             }
             return response.text();  // or response.json() if your PHP returns JSON
         })
         .then(data => {
-            responseMsg.innerHTML = `<p class='alert alert-success'>${data}</p>`;
+            responseMsg.innerHTML = `${data}`;
             // console.log(data);
         })
         .catch(error => {
