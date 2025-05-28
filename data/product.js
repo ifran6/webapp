@@ -52,7 +52,7 @@ function displayCard(item, isProduct = true){
             <img src="${item.image}" class='card-img' alt="${item.name}">
             <div class="card-title">${item.name}</div>
             <div class="card-subtitle">${isProduct?"Price: "+item.price/100:item.description}</div>
-            ${isProduct? "":"<button class='button-read-more btn-dark p-2'> Read more</button>" }
+            ${isProduct? "":"<button class='button-read-more btn-dark p-2 w-100'> Read more</button>" }
           </div>`;
 }
 

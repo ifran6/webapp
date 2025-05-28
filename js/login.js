@@ -35,7 +35,8 @@ if (loginInfo) {
 
         responseMsg.innerHTML = "<p class='alert alert-info'>Logging in...</p>";
         if (submitBtn) submitBtn.disabled = true;
-
+        setTimeout(()=>{
+            
         fetch("./incs/sign.php", {
             method: 'POST',
             body: formData
@@ -44,12 +45,12 @@ if (loginInfo) {
             if (!response.ok) {
                 throw new Error(`Server responded with status: ${response.status}`);
             }else{
-                window.location.href = 'incs/welcome.php';
+                setTimeout(()=>{window.location.href = 'incs/welcome.php';}, 3000);
             }
             return response.text();  // or response.json() if your PHP returns JSON
         })
         .then(data => {
-            responseMsg.innerHTML = `${data}`;
+           responseMsg.innerHTML = `${data}`;
             // console.log(data);
         })
         .catch(error => {
@@ -59,6 +60,7 @@ if (loginInfo) {
         .finally(() => {
             if (submitBtn) submitBtn.disabled = false;
         });
+        }, 1000);
     });
 }
 
@@ -101,11 +103,15 @@ if (RegisterInfo) {
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Server responded with status: ${response.status}`);
+            }else{
+                setTimeout(()=>{
+                    window.location.href = 'sign-in.php';
+                }, 3000);
             }
             return response.text();  // or response.json() if your PHP returns JSON
         })
         .then(data => {
-            responseMsg.innerHTML = `<p class='alert alert-success'>${data}</p>`;
+            responseMsg.innerHTML = `${data}`;
             console.log(data);
         })
         .catch(error => {

@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ($stmt->execute()) {
             $result = $stmt->get_result();
             if ($result->num_rows > 0) {
-                echo "User already exists";
+                echo "<p class='alert alert-danger'>User already exists</p>";
             } else {
                 $hashedPassword = password_hash($passwordRegister, PASSWORD_DEFAULT);
                 $status = 0;

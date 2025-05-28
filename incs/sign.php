@@ -18,12 +18,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // Verify password
                 if (password_verify($passwordLogin, $user['password'])) {
                     // Set session variable
-                    $_SESSION['user_id'] = $user['id'];
-                    $_SESSION['user_email'] = $user['email'];
+                  
+                    if($user['statu'] === 0){
+                        echo "<p class='alert alert-danger'>You have not activated your account</p.";
+                        // exit;
+                    }else{  
+                        $_SESSION['user_id'] = $user['id'];
+                        $_SESSION['user_email'] = $user['email'];
 
+                         header("Location:welcome.php"); 
+                         exit; 
+                    } 
                     // Redirect to welcome page (adjust path if needed)
-                    header("Location:welcome.php"); 
-                    exit;
+                  
                 } else {
                     echo "Incorrect password.";
                     exit;

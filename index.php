@@ -22,7 +22,7 @@
     </div>
 
     <!-- Product Slider -->
-    <div class="product-card-container js-product-card bg-light p-4">
+    <div class="product-card-container js-product-card bg-light p-4 m-4">
         <h3 class="product-card-title">Our Products</h3>
         <div class="product-card">
             <!-- Product content here -->
